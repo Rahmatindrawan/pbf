@@ -1,7 +1,7 @@
 @extends('layouts/sidebar')
 
 @section('title')
-<title>GoMart - Dashboard</title>
+<title>GoMartt - Dashboard</title>
 @endsection
 
 @section('content')
