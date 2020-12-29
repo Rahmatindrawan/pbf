@@ -14,19 +14,19 @@
                     @csrf
                     <div class="form-group">
                         <label for="name">Nama Produk</label>
-                        <input type="text" class="form-control" id="name" placeholder="name" name="name">
+                        <input type="text" class="form-control" id="name" placeholder="Nama" name="name">
                     </div>
                     <div class="form-group">
-                        <label for="price">Harga Produk + 5%</label>
-                        <input type="number" class="form-control" id="price" placeholder="Pastikan harga sudah ditambah biaya admin 5%" name="price">
+                        <label for="price">Harga Produk</label>
+                        <input type="number" class="form-control" id="price" placeholder="Harga" name="price">
                     </div>
                     <div class="form-group">
                         <label for="stock">Stok Produk</label>
-                        <input type="number" class="form-control" id="stock" placeholder="stock" name="stock">
+                        <input type="number" class="form-control" id="stock" placeholder="Stok" name="stock">
                     </div>
                     <div class="form-group">
                         <label for="weight">Berat Produk (gram)</label>
-                        <input type="number" class="form-control" id="weight" placeholder="weight" name="weight">
+                        <input type="number" class="form-control" id="weight" placeholder="Berat Produk" name="weight">
                     </div>
                     <div class="form-group">
                         <label for="photo">Foto Produk</label>
@@ -34,11 +34,12 @@
                     </div>
                     <div class="form-group">
                         <label for="description">Deskripsi</label>
-                        <textarea type="text" class="form-control" id="description" placeholder="description" name="description" style="height: 150px; overflow: auto;"></textarea>
+                        <textarea type="text" class="form-control" id="description" placeholder="Deskripsi" name="description" style="height: 150px; overflow: auto;"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Tambah Data</button>
                     <a class="btn btn-danger" href="{{ url('products') }}">Kembali</a>
                 </form>
+                <br>
 				
 		
 			</div>

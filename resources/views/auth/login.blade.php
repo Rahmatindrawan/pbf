@@ -13,13 +13,13 @@
                     <div class="row">
                         
                         <div class="col-lg-6 d-none d-lg-block bg-primary">
-                            <img class="mx-auto d-block mt-5" style="width:80%;" src="{{ asset('images/libeli.png') }}">
+                            <img class="mx-auto d-block mt-5" style="width:80%;" src="{{ asset('images/gomart.png') }}">
                         </div>
 
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Login LiBeli</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">Login GO-MART</h1>
                                 </div>
                   
                                 <form method="POST" action="{{ route('login') }}">

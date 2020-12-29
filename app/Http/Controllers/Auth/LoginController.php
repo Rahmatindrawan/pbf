@@ -34,7 +34,7 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        alert()->basic('Selamat Datang di LiBeli', 'Halo');
+        alert()->basic('Selamat Datang di GO-MART', 'Halo');
         $this->middleware('guest')->except('logout');
     }
 }

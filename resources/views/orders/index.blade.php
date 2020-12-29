@@ -1,7 +1,7 @@
 @extends('layouts/sidebar')
 
 @section('title')
-<title>Libeli - Orders</title>
+<title>GoMart - Orders</title>
 @endsection
 
 @section('content')

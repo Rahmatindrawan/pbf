@@ -31,7 +31,8 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('home') }}">
         <div class="sidebar-brand-icon">
-          <img class="mx-auto d-block" style="width:50%;" src="{{ asset('images/libeli.png') }}">
+              <h2 class="font-weight-bold" >Go-Mart</h2>
+          {{-- <img class="mx-auto d-block" style="width:50%;" src="{{ asset('images/libeli.png') }}"> --}}
         </div>
       </a>
 

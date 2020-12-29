@@ -28,7 +28,6 @@
                       {{$product->user->name}}</a>
                     </div>
                     
-                    <p class="text-warning">note : sementara pengiriman hanya berlaku untuk area terdekat max 5km</p>
                   </div>
                 </div>
               </div>
@@ -52,11 +51,15 @@
                       <i class="fa fa-shopping-cart"></i>Tambah Ke Keranjang</button>
                     </form>
 
-                    @if(\Auth::user()->hasAnyRole('penjual'))
-                    <a class="btn btn-primary" href="{{ url('products') }}">Kembali</a>
+                    @guest
+                      <a class="btn btn-primary" href="{{ url('home') }}">Kembali</a>
                     @else
-                    <a class="btn btn-primary" href="{{ url('home') }}">Kembali</a>
-                    @endif
+                      @if(\Auth::user()->hasAnyRole('penjual'))
+                      <a class="btn btn-primary" href="{{ url('products') }}">Kembali</a>
+                      @else
+                      <a class="btn btn-primary" href="{{ url('home') }}">Kembali</a>
+                      @endif
+                    @endguest
                   
                   </div>
                 </div>

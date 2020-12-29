@@ -5,5 +5,5 @@ Home
 @endsection
 
 @section('content')
-<h1>Wellcome to LiBeli</h1>
+<h1>Wellcome to GoMart</h1>
 @endsection

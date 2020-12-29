@@ -13,6 +13,11 @@ use UxWeb\SweetAlert\SweetAlert;
 
 class OrdersController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
         $orders = Order::where('user_id', Auth::user()->id)->where('status',0)->first();

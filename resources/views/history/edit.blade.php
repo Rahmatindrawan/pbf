@@ -1,7 +1,7 @@
 @extends('layouts/sidebar')
 
 @section('title')
-<title>LiBeli - Bukti Pembayaran</title>
+<title>GoMart - Bukti Pembayaran</title>
 @endsection
 
 @section('content')
