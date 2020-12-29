@@ -14,15 +14,15 @@
                     @csrf
                     <div class="form-group">
                         <label for="title">Title</label>
-                        <input type="text" class="form-control" id="title" placeholder="title" name="title">
+                        <input type="text" class="form-control" id="title" placeholder="Title" name="title">
                     </div>
                     <div class="form-group">
                         <label for="penyelenggara">Penyelenggara</label>
-                        <input type="text" class="form-control" id="penyelenggara" placeholder="penyelenggara" name="penyelenggara">
+                        <input type="text" class="form-control" id="penyelenggara" placeholder="Penyelenggara" name="penyelenggara">
                     </div>
                     <div class="form-group">
                         <label for="link">Link</label>
-                        <input type="text" class="form-control" id="link" placeholder="link" name="link">
+                        <input type="text" class="form-control" id="link" placeholder="Link" name="link">
                     </div>
                     <div class="form-group">
                         <label for="photo">Foto Event</label>
@@ -30,10 +30,11 @@
                     </div>
                     <div class="form-group">
                         <label for="content">Content</label>
-                        <textarea type="text" class="form-control" id="content" placeholder="content" name="content" style="height:100px;"></textarea>
+                        <textarea type="text" class="form-control" id="content" placeholder="Content" name="content" style="height:100px;"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Tambah Data</button>
                 </form>
+                <br>
 				
 		
 			</div>
